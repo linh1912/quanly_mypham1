@@ -62,7 +62,6 @@ public class Customer extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jPanel5 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         search = new javax.swing.JTextField();
@@ -353,12 +352,6 @@ public class Customer extends javax.swing.JFrame {
         jPanel3.add(jPanel5);
         jPanel5.setBounds(0, 240, 700, 10);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 102, 102));
-        jLabel1.setText("Customer List");
-        jPanel3.add(jLabel1);
-        jLabel1.setBounds(230, 270, 189, 32);
-
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
@@ -375,7 +368,7 @@ public class Customer extends javax.swing.JFrame {
         jPanel3.add(jScrollPane1);
         jScrollPane1.setBounds(0, 308, 699, 440);
         jPanel3.add(search);
-        search.setBounds(420, 270, 250, 30);
+        search.setBounds(20, 260, 640, 30);
 
         jPanel1.add(jPanel3);
         jPanel3.setBounds(220, 0, 700, 600);
@@ -449,7 +442,6 @@ public class Customer extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private com.toedter.calendar.JDateChooser jDateChooser1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;

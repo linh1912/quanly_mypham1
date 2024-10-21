@@ -1,5 +1,6 @@
 package mypham;
 
+import java.sql.Statement; 
 import java.sql.Connection; 
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -19,13 +20,17 @@ public class home {
     }
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Connection con=getConnection();
-        if(con==null){
-            System.out.println("failed");
-        }
-        else{
-            System.out.println("Successfully");
+        if(con!=null){
+            //truy van ,update du lieu
+            Statement stmt=con.createStatement();
+            stmt.
             
         }
+        else{
+            System.out.println("failed");
+            
+            
         }
+    }
           
 }
