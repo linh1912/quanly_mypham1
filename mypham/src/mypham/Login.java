@@ -48,7 +48,7 @@ public class Login extends javax.swing.JFrame {
         Rght.setBackground(new java.awt.Color(255, 204, 204));
         Rght.setMinimumSize(new java.awt.Dimension(400, 500));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\THUY LINH\\Documents\\NetBeansProjects\\mypham\\src\\image\\logo.jpg")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/logo.jpg"))); // NOI18N
 
         jLabel7.setFont(new java.awt.Font("Tempus Sans ITC", 1, 48)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
