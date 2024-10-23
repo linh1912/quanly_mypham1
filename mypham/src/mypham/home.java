@@ -23,7 +23,7 @@ public class home {
         if(con!=null){
             //truy van ,update du lieu
             Statement stmt=con.createStatement();
-            stmt.
+            
             
         }
         else{
